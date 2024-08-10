@@ -19,11 +19,11 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const [inputStore, setinputStore] = useState<ContentType>({} as ContentType);
+  const [inputStore, setInputStore] = useState<ContentType>({} as ContentType);
   return (
     <html lang="ja" className="bg-gray-200">
       <body className={`${inter.className} bg-gray-200`}>
-        <ContextData.Provider value={{ inputStore, setinputStore }}>
+        <ContextData.Provider value={{ inputStore, setInputStore }}>
           <Header />
           {children}
         </ContextData.Provider>
