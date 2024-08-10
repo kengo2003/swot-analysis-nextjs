@@ -1,3 +1,4 @@
+"use client";
 import StartButton from "@/components/StartButton";
 
 export default function Home() {

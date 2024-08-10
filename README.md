@@ -1,13 +1,13 @@
 # クロス SWOT 分析アプリです
 
-chatGPT を用いたクロス SWOT 分析を行えます。
+入力された内容を元にchatGPTを用いたクロス SWOT 分析を行えます。
 
 ## 使用技術
 
 ・TyprScript  
 ・Next.js  
 ・OpenAI API  
-(検討中)Vercel or cloudflare  
+・Vercel or cloudflare  
 ・API OpenAI API  
 ・バリデーション Zod
 
