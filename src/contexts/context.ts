@@ -3,7 +3,7 @@ import { createContext, useContext } from "react";
 
 interface ContextType {
   inputStore: ContentType;
-  setinputStore: (inputStore: ContentType) => void;
+  setInputStore: (inputStore: ContentType) => void;
 }
 
 export const ContextData = createContext<ContextType | undefined>(undefined);
